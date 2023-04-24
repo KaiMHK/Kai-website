@@ -1,4 +1,4 @@
-import PdfDisplay from "./PdfDisplay";
+import PdfDisplay from "./ImgDisplayer";
 
 export default function ResumePage(params) {
     return (

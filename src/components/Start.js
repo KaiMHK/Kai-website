@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import "../styles/Start.css"
 
 export default function Start(params) {
   return (
   <div>
-    <div>Haokai Mao's Website is constructing</div>
-    <Link to = "main">MainPage</Link>
+    <h1 id="title">Welcome To Kai's Protfolio</h1>
+    <Link to="main" class="custom-btn btn-5" id="mainBtn"><div id="buttonText">Main Page</div></Link>
   </div>
   );
 }

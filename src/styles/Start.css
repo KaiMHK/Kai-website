@@ -1,0 +1,114 @@
+/* #mainBtn {
+    background-color: #176ca1;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#mainBtn:hover {
+    background-color: rgb(5, 0, 0);
+}
+
+body {
+    background: linear-gradient(-45deg, #da3a09, #5c2c0a, #034640, #060a5a);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+}
+  
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.custom-btn {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    /* padding: 25px 25px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+
+  .btn-5 {
+    font-size: 120%;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 2vh 2vw;
+    border: none;
+    background: rgb(8, 7, 7);
+  }
+  .btn-5:hover {
+    background: transparent;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:3px;
+    width:0;
+    background: #ffffff;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:100%;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  #buttonText{
+    color : white;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  #title{
+    color : white;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 6vw;
+  }
