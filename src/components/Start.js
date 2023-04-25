@@ -5,7 +5,7 @@ export default function Start(params) {
   return (
   <div>
     <h1 id="title">Welcome To Kai's Protfolio</h1>
-    <Link to="main" class="custom-btn btn-5" id="mainBtn"><div id="buttonText">Main Page</div></Link>
+    <Link to="main" className="custom-btn btn-5" id="mainBtn"><div id="buttonText">Main Page</div></Link>
   </div>
   );
 }
