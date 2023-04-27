@@ -6,17 +6,6 @@ import "../styles/Main.css"
 export default function Main(params) {
   return (
     <div>
-      {/* <header>
-        <Link className="headers" to={"/"}>
-          StartPage
-        </Link>
-        <Link className="headers" to={"resume"}>
-          Resume
-        </Link>
-        <Link className="headers" to={"projects"}>
-          Projects
-        </Link>
-      </header> */}
       <div class="container">
         <Link class="box" to={"resume"}>
           <h2>Resume</h2>
