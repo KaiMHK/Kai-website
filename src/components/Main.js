@@ -6,25 +6,25 @@ import "../styles/Main.css"
 export default function Main(params) {
   return (
     <div>
-      <div class="container">
-        <Link class="box" to={"resume"}>
+      <div className="container">
+        <Link className="box" id="box1" to={"resume"}>
           <h2>Resume</h2>
-          <p>Lorem Ipsum is simply dummy text</p>
+          <p>Check my education and experience</p>
         </Link>
 
-        <Link class="box">
+        <Link className="box">
           <h2>Skills</h2>
-          <p>Lorem Ipsum is simply dummy text</p>
+          <p>List of my technical skills stack</p>
         </Link>
 
-        <Link class="box" to={"projects"}>
+        <Link className="box" to={"projects"}>
           <h2>Projects</h2>
-          <p>Lorem Ipsum is simply dummy text</p>
+          <p>My off-campus personal projects</p>
         </Link>
 
-        <Link class="box">
+        <Link className="box" to={"contact"}>
           <h2>Contact</h2>
-          <p>Lorem Ipsum is simply dummy text</p>
+          <p>Looking forward to hearing from you.</p>
         </Link>
       </div>
     </div>

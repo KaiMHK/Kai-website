@@ -29,6 +29,7 @@
 
 .box:hover {
   flex-grow: 2;
+  background: rgba(0, 0, 0, 0) !important;
 }
 
 .box h2 {
@@ -40,7 +41,7 @@
   text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .box p {
-  font: 100 14px/29px raleway;
+  font: 100 1vw raleway;
   color: #ecf0f1;
   text-align: center;
   width: 90%;
@@ -50,35 +51,32 @@
 
 .box:first-of-type {
   background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.51),
-      rgba(12, 2, 192, 0.841)
-    )
+    to top,
+    rgba(0, 0, 0, 0.903),
+    rgba(2, 88, 9, 0.951)
+  );
+  /* url("../assets/letterPaper.jpg") no-repeat center;
+  background-size: cover; */
 }
 
 .box:nth-of-type(2) {
-  background: linear-gradient(
-      to top,
-      rgba(9, 0, 0, 0.5),
-      rgb(3, 99, 167)
-    )
+  background: linear-gradient(to top, rgba(9, 0, 0, 0.652), rgb(3, 96, 98));
+  /* url("../assets/coding.jpg") no-repeat center;
+  background-size: cover; */
 }
 
 .box:nth-of-type(3) {
   background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.5),
-      rgba(1, 153, 123, 0.689)
-    )
+    to top,
+    rgba(0, 0, 0, 0.698),
+    rgba(2, 30, 85, 0.945)
+  );
+  /* url("../assets/project.jpg") no-repeat center;
+  background-size: cover; */
 }
 .box:last-of-type {
-  background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.5),
-      rgba(17, 169, 20, 0.596)
-    )
-    /* url("https://images.pexels.com/photos/1024248/pexels-photo-1024248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-      no-repeat center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.775), rgb(88, 2, 87));
+  /* url("../assets/contact.jpg") no-repeat center;
   background-size: cover; */
 }
 @media screen and (max-width: 600px) {

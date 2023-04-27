@@ -87,6 +87,9 @@
   80% {
     transform: translate(0, -4.8em);
   }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 #developer {

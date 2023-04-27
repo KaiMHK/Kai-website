@@ -5,6 +5,7 @@ import Start from "./components/Start";
 import Main from "./components/Main";
 import ResumePage from "./components/ResumePage";
 import ProjectPage from "./components/ProjectPage";
+import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/main" element={<Main />} />
         <Route path="/main/resume" element={<ResumePage />} />
         <Route path="/main/projects" element={<ProjectPage/>} />
+        <Route path="/main/contact" element={<ContactPage/>} />
       </Routes>
     </Router>
   );
