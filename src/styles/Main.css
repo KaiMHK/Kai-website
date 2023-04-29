@@ -1,4 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Raleway";
+
+.Constructing{
+  color:white;
+  font-size: 5vw;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,12 +13,13 @@
   transition: all 0.3s ease-in-out;
 }
 
-.container {
+.containerMain {
   height: 100vh;
   width: 100%;
   display: flex;
   align-items: stretch;
   align-content: space-around;
+  background-color: #fff;
 }
 
 .box {
@@ -29,7 +36,7 @@
 
 .box:hover {
   flex-grow: 2;
-  background: rgba(0, 0, 0, 0) !important;
+  opacity: 70% !important;
 }
 
 .box h2 {
@@ -52,15 +59,15 @@
 .box:first-of-type {
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.903),
-    rgba(2, 88, 9, 0.951)
+    rgb(0, 0, 0),
+    rgb(2, 112, 11)
   );
   /* url("../assets/letterPaper.jpg") no-repeat center;
   background-size: cover; */
 }
 
 .box:nth-of-type(2) {
-  background: linear-gradient(to top, rgba(9, 0, 0, 0.652), rgb(3, 96, 98));
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(2, 125, 127));
   /* url("../assets/coding.jpg") no-repeat center;
   background-size: cover; */
 }
@@ -68,14 +75,14 @@
 .box:nth-of-type(3) {
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.698),
-    rgba(2, 30, 85, 0.945)
+    rgb(0, 0, 0),
+    rgb(1, 38, 111)
   );
   /* url("../assets/project.jpg") no-repeat center;
   background-size: cover; */
 }
 .box:last-of-type {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.775), rgb(88, 2, 87));
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(101, 2, 99));
   /* url("../assets/contact.jpg") no-repeat center;
   background-size: cover; */
 }

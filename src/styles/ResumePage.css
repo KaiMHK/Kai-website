@@ -1,0 +1,17 @@
+#leftContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+
+#resumeLink{
+    color: white;
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translate(-50%,0);
+}

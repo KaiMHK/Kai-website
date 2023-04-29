@@ -6,13 +6,13 @@ import "../styles/Main.css"
 export default function Main(params) {
   return (
     <div>
-      <div className="container">
+      <div className="containerMain">
         <Link className="box" id="box1" to={"resume"}>
           <h2>Resume</h2>
           <p>Check my education and experience</p>
         </Link>
 
-        <Link className="box">
+        <Link className="box" to={"skill"}>
           <h2>Skills</h2>
           <p>List of my technical skills stack</p>
         </Link>
