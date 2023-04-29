@@ -37,7 +37,7 @@ export default function InfoBlock(params) {
   return (
     <div className="infoBlock">
       <h1 id="infoNameText">{info.name}</h1>
-      <p>{stringWithBreaks}</p>
+      <p id="descriptionText">{stringWithBreaks}</p>
     </div>
   );
 }

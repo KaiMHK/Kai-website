@@ -18,6 +18,10 @@
     width: 90%;
 }
 
+#descriptionText{
+    font-size: 1.5vw;
+}
+
 @keyframes appear{
     0%{
         opacity:0;
