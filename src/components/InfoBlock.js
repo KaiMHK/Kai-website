@@ -16,7 +16,7 @@ let infos = {
   sk: {
     name: "Skills",
     content:
-      "Here are my skills, including \n \n Language: Javascript, C++/C, Java, AJAX, Python, R, Matlab \n \n Library: React/ReactNative, Node, Express, CSS/Bootstrap, Numpy, Pandas, Sklearn, OpenGL \n \n Database/Tools/Platform: MongoDB, Git, Docker, Netlify, UE5, Unity, VSCode, Visual Studio, Linux.",
+      "Here are my skills, including \n \n Language: Javascript, HTML, CSS, C++/C, Java, AJAX, Python, R, Matlab \n \n Library: React/ReactNative, Node, Express, CSSBootstrap, Numpy, Pandas, Sklearn, OpenGL \n \n Database/Tools/Platform: MongoDB, Git, Docker, Netlify, UE5, Unity, VSCode, Visual Studio, Linux.",
   },
   pr: {
     name: "Projects",
