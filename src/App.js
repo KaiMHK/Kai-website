@@ -14,12 +14,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Start />} index />
-        <Route path="/main" element={<Main />} />
-        <Route path="/main/resume" element={<ResumePage />} />
-        <Route path="/main/resume/paper" element={<PdfDisplay />} />
-        <Route path="/main/projects" element={<ProjectPage/>} />
-        <Route path="/main/contact" element={<ContactPage/>} />
-        <Route path="/main/skill" element={<SkillsPage/>} />
       </Routes>
     </Router>
   );

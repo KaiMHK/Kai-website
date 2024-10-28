@@ -12,7 +12,9 @@ export default function ResumePage(params) {
         <LeftDrawer name="Skills" itemId="sk" />
         <LeftDrawer name="Projects" itemId="pr" />
       </div>
-      <Link id="resumeLink" to={"./paper"}>To see more details, please view my resume.</Link>
+      <Link id="resumeLink" to={"./paper"}>
+        To see more details, please view my resume.
+      </Link>
     </div>
   );
 }
